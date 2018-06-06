@@ -1,0 +1,144 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <link rel="stylesheet" href="booking.css"></head>
+<body>
+    <script>/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+		function done()
+		{
+			alert("THANKS FOR BOOKING!");
+		}
+</script>
+ <div class="topnav" id="myTopnav">
+  <a href="beta.html" >Home</a>
+  <a href="myexplore.html" > Explore </a>
+  <a href="offers.html">Offers and Packages</a>
+  <div class="dropdown">
+    <button class="dropbtn">Book Now
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="flight.html" class="active">Flights</a>
+      <a href="hotel.html">Hotels</a>
+   
+    </div>
+  </div> 
+     <div class="dropdown">
+    <button class="dropbtn">Tools
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="calendar.html">Holiday Calendar</a>
+      <a href="must-know.html">Must-Knows</a>
+      <a href="helpline.html" >Helpline Numbers</a>
+   
+    </div>
+  </div> 
+  <a href="about.html" title="Know About the website design and designers">About</a>
+ <a href="loginsignup.html">Login/SignUp</a>
+ <a href="feedback.html">Feedback/Review</a>
+<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+	
+       <section id="flightsec">
+    <h1>From - <select>
+    
+    					<option>New Delhi</option>
+                        <option>Mumbai</option>
+                        <option>Bangalore</option>
+                        <option>Bhopal</option>
+                        <option>Lucknow</option>
+                        <option>Hyderabad</option>
+                        <option>Ahmedabad</option>
+                        <option>Pune</option>
+                        <option>Kolkata</option>
+                        <option>Amritsar</option>
+                        <option>Raipur</option>
+                        <option>Chandigarh</option>
+                        <option>Chhindwara</option>
+    </select>
+    </h1>
+                    
+    <h1>	To   -     <select>
+                
+                <optgroup label="Domestic"><option>New Delhi</option>
+                        <option>Mumbai</option>
+                        <option>Bangalore</option>
+                        <option>Bhopal</option>
+                        <option>Lucknow</option>
+                        <option>Hyderabad</option>
+                        <option>Ahmedabad</option>
+                        <option>Pune</option>
+                        <option>Kolkata</option>
+                        <option>Amritsar</option>
+                        <option>Raipur</option>
+                        <option>Chandigarh</option>
+                        <option>Chhindwara</option>
+                </optgroup>    
+                <optgroup label="Foreign">
+                <option>Paris</option>
+                        <option>London</option>
+                        <option>Las Vegas</option>
+                        <option>Los Angeles</option>
+                        <option>Manchester</option>
+                        <option>Prague</option>
+                        <option>Moscow</option>
+                        <option>DusselDorf</option>
+                        <option>Berlin</option>
+                        <option>Tokyo</option>
+                        <option>Westeros</option>
+                        <option>Hogwarts</option>
+                        <option>Washington</option>
+
+                        <option>Pretoria</option>
+                        <option>Adelaide</option>
+                        <option>Sydney</option>
+                        <option>Bangkok</option>
+                        <option>Dubai</option>
+                        <option>Abu Dhabi</option>
+                        <option>New York</option>
+                        <option>Madrid</option>
+
+                        <option>St.Petersburg</option>
+                        <option>Asgard</option>
+                </optgroup>
+         </select>
+    	
+    </h1>
+    <h1>
+    Flight Carrier - 
+    <select>
+                
+                <option>Air India</option>
+                        <option>Indigo  </option>
+                        <option>Jet Airways</option>
+                        <option>SpiceJet</option>
+                        <option>Chartered Flight</option>
+                        <option>British Airways</option>
+                        <option>Lufthansa</option>
+                </select>
+		</h1>
+    <h1>
+      Ticket Type -
+       <input type="radio" placeholder="One-way">One Way    <input type="radio"> With return  </h1>
+       <h1 id="date"> Date Of Travel  - 
+       <input type="date">
+</h1></section>
+      <div id="divbtn">
+      <h1 >
+      <button type="submit" id="button" onClick="done()">BOOK NOW!</button>
+		  </h1></div>
+	        
+
+        </body></html>    
+    
+    
+    

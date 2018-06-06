@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Hotel Booking</title>
+<link rel="stylesheet" href="hotel.css">
+<link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Sacramento" rel="stylesheet">
+</head>
+
+<body>
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+   
+ <div class="topnav" id="myTopnav">
+  <a href="beta.html">Home</a>
+  <a href="myexplore.html" > Explore </a>
+  <a href="offers.html">Offers and Packages</a>
+  <div class="dropdown">
+    <button class="dropbtn">Book Now
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="flight.html">Flights</a>
+      <a href="hotel.html" class="active">Hotels</a>
+   
+    </div>
+  </div> 
+     <div class="dropdown">
+    <button class="dropbtn">Tools
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="calendar.html">Holiday Calendar</a>
+      <a href="must-know.html">Must-Knows</a>
+      <a href="helpline.html" >Helpline Numbers</a>
+   
+    </div>
+  </div> 
+  <a href="about.html" title="Know About the website design and designers">About</a>
+ <a href="loginsignup.html">Login/SignUp</a>
+ <a href="feedback.html">Feedback/Review</a>
+<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+	
+    <section id="hotelsec">
+    
+    		<h1>Book Hotels Easily</h1>
+				<h2>Date of travel
+    		    	<input type="date"> </h2>
+    		    		<h2>City -
+    		   				 <select>
+    		    		
+                <optgroup label="Domestic"><option>New Delhi</option>
+                        <option>Mumbai</option>
+                        <option>Bangalore</option>
+                        <option>Bhopal</option>
+                        <option>Lucknow</option>
+                        <option>Hyderabad</option>
+                        <option>Ahmedabad</option>
+                        <option>Pune</option>
+                        <option>Kolkata</option>
+                        <option>Amritsar</option>
+                        <option>Raipur</option>
+                        <option>Chandigarh</option>
+                        <option>Chhindwara</option>
+                </optgroup>    
+                <optgroup label="Foreign">
+                <option>Paris</option>
+                        <option>London</option>
+                        <option>Las Vegas</option>
+                        <option>Los Angeles</option>
+                        <option>Manchester</option>
+                        <option>Prague</option>
+                        <option>Moscow</option>
+                        <option>DusselDorf</option>
+                        <option>Berlin</option>
+                        <option>Tokyo</option>
+                        <option>Westeros</option>
+                        <option>Hogwarts</option>
+                        <option>Washington</option>
+
+                        <option>Pretoria</option>
+                        <option>Adelaide</option>
+                        <option>Sydney</option>
+                        <option>Bangkok</option>
+                        <option>Dubai</option>
+                        <option>Abu Dhabi</option>
+                        <option>New York</option>
+                        <option>Madrid</option>
+
+                        <option>St.Petersburg</option>
+                        <option>Asgard</option>		
+								 </optgroup>
+    
+    		    		</select></h2>
+    		    <h2>Type of room
+   			<select>
+    				<option>Single Room  -  Rs. 25000 to Rs 35000 /-</option>	    		
+    		    	<option>Double Room  -  Rs.20000 to Rs.35000/-</option>
+    		    	<option>Couple Rooms -  Rs.11000 to Rs.52000/-</option>
+    		    	<option>Suite        - 100K to 110K/-</option>
+    		    	<option>Penthouse    - 20K to 50K</option>
+    		    	<option>Rooftop Penthouse with Pool - Rs.50K</option>
+    		    	
+					</select></h2>
+    	    <h2>Will you require Parking Facility
+    	    <select><option>Yes</option><option>No</option></select>
+    	    </h2>
+    </section>
+    <div id="divbtn">
+      <h1 >
+      <button type="submit" id="button">BOOK</button>
+		  </h1></div>
+</body>
+</html>

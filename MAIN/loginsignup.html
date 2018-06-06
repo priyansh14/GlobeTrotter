@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Login/Signup</title>
+       
+          
+            	<link rel="stylesheet" href="loginsignup.css">
+</head>
+    
+<body>
+    <script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+		function thanks()
+		{
+			alert('THANKS FOR JOINING!!');
+		}
+		function thanks1()
+		{
+			alert('Logging You in once we learn backend!');
+		}
+</script>
+   
+  <div class="topnav" id="myTopnav">
+  <a href="beta.html">Home</a>
+  <a href="myexplore.html" > Explore </a>
+  <a href="offers.html">Offers and Packages</a>
+  <div class="dropdown">
+    <button class="dropbtn">Book Now
+      
+    </button>
+    <div class="dropdown-content">
+      <a href="flight.html">Flights</a>
+      <a href="hotel.html">Hotels</a>
+   
+    </div>
+  </div> 
+     <div class="dropdown">
+    <button class="dropbtn">Tools
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="calendar.html">Holiday Calendar</a>
+      <a href="must-know.html">Must-Knows</a>
+      <a href="helpline.html" >Helpline Numbers</a>
+   
+    </div>
+  </div> 
+  <a href="about.html" title="Know About the website design and designers">About</a>
+ <a href="loginsignup.html" class="active">Login/SignUp</a>
+ <a href="feedback.html">Feedback/Review</a>
+<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+	
+     <!-------------------------------M A I N  P A G E---------------------------------------------------->
+    <section id="login">
+    <h3>Login in to your account</h3>
+        
+        <form title="Login">
+            <fieldset title="Login">
+                <legend>Login</legend>
+            Email : <input type="email" placeholder="Enter your email"><br>
+            Password: <input type="password" placeholder="Password Please!">
+    
+            </fieldset>
+            </form>
+		<div class="btndiv"><button type="submit" class="btn" onClick="thanks1()">LOGIN</button></div>
+<!--------------------------------------------------------------------------->
+     <br><br>
+           <h3>JOIN OUR COMMUNITY AND ENJOY AMAZING OFFERS BY SIGNING UP</h3>
+        <form>
+            <fieldset title="Signup">
+        <legend>Signup</legend>
+                
+        Name : <input type="text" placeholder=" Full name"><br>
+        Date of Birth: <input type="date" placeholder="1.1.18">
+        
+        Email : <input type="email" placeholder="example@lpu.co.in"><br>
+        
+        Phone-Number : <input type="tel"><br>
+        Password : <input type="password" placeholder="Create a password of 8-16 characters">    
+            </fieldset>
+                </form>
+    <div class="btndiv"><button type="submit" class="btn" onClick="thanks()">SIGNUP</button></div>
+    <br><br>
+    </section>
+    
+          </body>    
+    <!------------page over-------------------------------------------------------->
+</html>

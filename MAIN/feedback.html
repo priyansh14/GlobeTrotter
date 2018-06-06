@@ -1,0 +1,93 @@
+<!Doctype html>
+<html>
+	
+	<head>
+		<title>Feedback</title>
+		<link rel="stylesheet" href="feedback.css">
+		
+		<link href="https://fonts.googleapis.com/css?family=Cinzel|Dancing+Script" rel="stylesheet">
+	</head>
+	<body>
+ <script>/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+	 function thanks(){
+		 var v=document.getElementById("thanknote");
+		 v.style.opacity="1";
+		 
+		 
+	 }
+	
+</script>    
+    
+      <div class="topnav" id="myTopnav">
+  <a href="beta.html">Home</a>
+  <a href="myexplore.html" > Explore </a>
+  <a href="offers.html">Offers and Packages</a>
+  <div class="dropdown">
+    <button class="dropbtn">Book Now
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="flight.html">Flights</a>
+      <a href="hotel.html">Hotels</a>
+   
+    </div>
+  </div> 
+     <div class="dropdown">
+    <button class="dropbtn">Tools
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="calendar.html">Holiday Calendar</a>
+      <a href="must-know.html">Must-Knows</a>
+      <a href="helpline.html" >Helpline Numbers</a>
+   
+    </div>
+  </div> 
+  <a href="about.html" title="Know About the website design and designers">About</a>
+ <a href="loginsignup.html">Login/SignUp</a>
+ <a href="#" class="active">Feedback/Review</a>
+<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+	
+		<h1>Review our Page</h1>
+	<h2>Please rate us in the following fields with 1 star as the lowest and 5 stars as highest rating</h2>
+	<h3>Features</h3>
+	<h3>Website Design</h3>
+	<h3>Information Provided</h3>
+	<h3>Explore Tabs</h3>
+	<h3>Ease of use and access to pages</h3>
+	<h3>Overall Experience</h3>
+	<div id="stars">
+	<p>&#9734;</p><p>&#9734;</p><p>&#9734;</p><p>&#9734;</p><p>&#9734;</p><br>
+	
+	<p>&#9734;</p><p>&#9734;</p><p>&#9734;</p><p>&#9734;</p><p>&#9734;</p><br>
+	
+	<p>&#9734;</p><p>&#9734;</p><p>&#9734;</p><p>&#9734;</p><p>&#9734;</p><br>
+	
+	<p>&#9734;</p><p>&#9734;</p><p>&#9734;</p><p>&#9734;</p><p>&#9734;</p><br>
+	
+	<p>&#9734;</p><p>&#9734;</p><p>&#9734;</p><p>&#9734;</p><p>&#9734;</p><br>
+	
+	<p>&#9734;</p><p>&#9734;</p><p>&#9734;</p><p>&#9734;</p><p>&#9734;</p><br>
+	
+	</div>
+	<br><br>
+	<h1>Feedback Letter</h1>
+	<h4>It would be very helpful to us if you could write a few words about your experience!</h4>
+	<textarea rows="17" cols="100" id="text" onMouseOver="visible()">
+				POUR OUT YOUR FEELINGS RIGHT HERE!!!
+	</textarea>
+	<br><br>
+	<button type="submit" onClick="thanks()" id="subbtn">Submit</button>
+	<marquee id="thanknote">Thank You so much!Your feedback is appreciated.</marquee>
+	
+	</body>
+</html>

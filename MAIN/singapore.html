@@ -1,0 +1,321 @@
+<!Doctype html>
+<html>
+	
+	<head>
+		<title>SINGAPORE</title>
+	
+	<link href="https://fonts.googleapis.com/css?family=Alex+Brush|Bad+Script|East+Sea+Dokdo|Great+Vibes|Nothing+You+Could+Do|Poiret+One|Sacramento" rel="stylesheet">
+	</head>
+	<style>
+	@charset "utf-8";
+/* CSS Document */
+#content
+{
+	background-color:hotpink;
+	color: white;
+	box-shadow: 0 8px 16px 0px rgba(0,0,0,0.2);
+	margin: 40px;
+	padding: 10px;
+}
+
+#content h1{
+	text-align: center;
+	text-decoration: underline;
+	
+	font-size: 70px;
+	font-family: 'Poiret One', cursive;
+	
+	font-weight: normal
+}
+
+p{
+	width: 80%;
+	margin: auto;
+	font-size: 28px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+
+	font-weight: lighter;
+	padding: 5px;
+	
+	
+}
+h3{
+	text-align: center;
+	 font-size: 28px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-weight: bold;
+	font-style: italic;
+}
+body
+{
+	background-image: url(/../images/berlinbranden.jpg);
+}
+h4{
+	font-family: 'Sacramento', cursive;
+	font-size: 58px;
+	font-weight: lighter;
+	text-align:left;
+	margin:50px;
+
+}
+img{
+	background: white;
+	width: 800px;
+	transition: 0.6s;
+	height: 600px;
+	padding: 10px;
+	border-radius: 15%;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	margin-left: 220px;
+}
+img:hover
+		{
+			transform: scale(1.21);
+			
+		}
+
+
+
+
+
+
+
+.topnav {
+    background-color: deepskyblue;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    
+    float: left;
+    font-family: Helvetica Neue,Arial,sans-serif;
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Add an active class to highlight the current page */
+.active {
+    background-color: darkorange;
+    color: black;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none
+}
+
+/* Dropdown container - needed to position the dropdown content */
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+/* Style the dropdown button to fit inside the topnav */
+.dropdown .dropbtn {
+    font-size: 17px;
+    border: none;
+    outline: none;
+    color: white;
+    
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: Helvetica Neue,Arial,sans-serif;
+    margin: 0;
+    
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Style the links inside the dropdown */
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+/* Add a dark background on topnav links and the dropdown button on hover */
+.topnav a:hover, .dropdown:hover .dropbtn {
+    background-color: darkorange;
+    color: white;
+}
+
+/* Add a grey background to dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Show the dropdown menu when the user moves the mouse over the dropdown button */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+/*------------------------------------------------------------------------------------------------*/
+
+
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+	
+	
+	</style>
+	<body>
+ <script>/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+	 
+</script>    
+    
+ <div class="topnav" id="myTopnav">
+  <a href="beta.html">Home</a>
+  <a href="myexplore.html" class="active"> Explore </a>
+  <a href="offers.html">Offers and Packages</a>
+  <div class="dropdown">
+    <button class="dropbtn">Book Now
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="flight.html">Flights</a>
+      <a href="hotel.html">Hotels</a>
+   
+    </div>
+  </div> 
+     <div class="dropdown">
+    <button class="dropbtn">Tools
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="calendar.html">Holiday Calendar</a>
+      <a href="must-know.html">Must-Knows</a>
+      <a href="helpline.html" >Helpline Numbers</a>
+   
+    </div>
+  </div> 
+  <a href="about.html" title="Know About the website design and designers">About</a>
+ <a href="loginsignup.html">Login/SignUp</a>
+ <a href="feedback.html">Feedback/Review</a>
+<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+	
+	<div id="content">
+	
+		<h1>Singapore</h1>
+		<p>Singapore (Singapura, 新加坡, சிங்கப்பூர்) is a city-state in Southeast Asia. Founded as a British trading colony in 1819, since independence it has become one of the world's most prosperous countries and boasts the world's busiest port.
+
+Combining the skyscrapers and subways of a modern, affluent city with a medley of Chinese, Malay and Indian influences and a tropical climate, with tasty food, good shopping and vibrant night-life scene, this Garden City makes a great stopover or springboard into the region.
+
+Singapore is one of the most popular travel destinations in the world for a lot of reasons. One of which is the less stringent entry requirements.
+<br><br>
+Singapore is a small island country. With a population size of over 5.5 million people it is a very crowded city, second only to Monaco as the world's most densely populated country.
+
+However, unlike many other densely populated countries, Singapore - with more than 50% of its area covered by greenery and with over 50 major parks and 4 nature reserves - is an enchanting garden city.
+
+Large self-contained residential towns have mushroomed all over the island, around the clean and modern city centre.<br>
+<img src="../images/singapore.coiverjpg.jpg">
+<br><br>
+	</p>
+		<br>
+		
+		 
+		<h3>People</h3>
+<p>
+Singapore prides itself on being a multi-racial country, and has a diverse culture despite its small size. The largest group are the Chinese, who form about 75% of the population.
+
+Amongst the Chinese, Southern Min/Min Nan (Hokkien-Taiwanese) and Cantonese speakers are the largest subgroups, with Mandarin acting as the lingua franca of the community. Other notable "dialect" groups among the Chinese include the Hakkas and Fuzhounese. There is also a strong presence of mainland Chinese in Singapore after the Singapore government opened up the immigration policy for mainland Chinese since mainland China started its economic reforms since the 1980s, resulting in the new wave of immigration of mainland Chinese to Singapore during the late 20th century. The mainland Chinese in Singapore speak Mandarin.
+
+
+<p>
+Malays, who are comprised of descendants of Singapore's original inhabitants as well as migrants from present day Malaysia, Indonesia and Brunei, form about 14% of the population.
+
+Indians form about 9% of the population. Among the Indians, Tamils form the largest group by far, though there are also a significant numbers of speakers of other Indian languages such as Hindi, Malayalam and Punjabi.
+</p>
+</p>
+<h3>Climate</h3>
+<p>
+Between May and October, forest fires in neighbouring Sumatra cause dense haze that regularly reaches unhealthy levels - although it is unpredictable and may come and go rapidly. Check the National Environment Agency's site for current data. In general, Singapore is best avoided from June to October if you have chronic heart or lung conditions or you simply don't want to suffer unhealthy pollution.
+
+As Singapore is located a mere 1.5 degrees north of the Equator, its weather is usually sunny with no distinct seasons. Rain falls almost daily throughout the year, usually in sudden, heavy showers that rarely last longer than an hour. However, most rainfall occurs during the north east monsoon (November to January), occasionally featuring lengthy spells of continuous rain. Spectacular thunderstorms can occur throughout the year, any time during the day, so it's wise to carry an umbrella at all times, both as a shade from the sun or cover from the rain.
+
+The temperature averages around:
+
+29.5°C (85.1°F) daytime, 22.5°C (72.5°F) at night in December and January. An occasional low of 21°C (69.8°F) can also be expected.
+32°C (89.6°F) daytime, 24°C (82.4°F) at night for the rest of the year. The temperature usually hovers around the 28°C (82.4°F) mark.
+</p><br>
+		<h3>Get in By Plane</h3><br>
+		<p>
+	Changi Airport
+As befits the country's main airport's major regional hub status, Changi Airport (IATA: SIN) and officially the 'best airport in the world' (see Skytrax) is big, pleasant and well organized, with immigration and baggage distribution remarkably fast. The airport is split into three main terminals (T1, T2 and T3) and a new fourth terminal, T4. T4 serves mainly budget carriers and airlines with point-to-point (non-transit) flights.
+
+Figuring out which terminal your flight arrives in or departs from can be complicated: for example, Singapore Airlines uses both T2 and T3, and only announces the arrival terminal two hours before landing. Fortunately, transfers are quite easy, as the three main terminals are connected with the free Skytrain service, which can be used without passing through immigration. All three main terminals are also physically connected to each other, and by walking that you will not notice you're in a different terminal except by reading the signs. Your departing terminal is more straightforward as Singapore Airlines designates T2 as departures for destinations in South East Asia, the Indian subcontinent, the Middle East and Africa while all other destinations will use T3. When you return to the airport and are leaving Singapore via Singapore Airlines, be sure to at least tell the driver your destination so he knows which terminal to take you to.
+
+Unlike most other airports, there are no separate zones for departing and arriving passengers in the main terminals prior to passport control hence arriving passengers are free to shop and eat at the airside establishments if they are not in a hurry to meet someone or catch prearranged transportation. In addition, if they have no luggage checked-in from their point of origin, they can clear passport control at any other terminal.
+	
+		</p>
+	<p>Even if stuck in the airport, there are plenty of ways to kill time, as each terminal has a unique design and the airside areas of T1, T2, and T3 are attractions in themselves. T2, arguably the most interesting, has an indoor garden, a music listening area with couches and mood lighting, a computer gaming room, a small movie theatre, paid massage services, and of course plenty of duty-free shops. T3 has a butterfly garden and plenty of natural light, but fewer entertainment options. T1 has a swimming pool for $13.91 and jacuzzi, both open until 23:00. T4, the newest, features a 'Heritage Zone' with a mini theatrical performance titled 'Peranakan Love Story' and a free-to-play arcade located near gate G17. You can travel between the three main terminals without passing through immigration and, if you have no checked-in luggage to collect, you can clear passport control and customs at any terminal. As noted above, Terminal 4 is an exception to this, and you can travel to this terminal only if you have a flight departing from here.</p>	
+		<br><br>
+		
+		<h1>Tourist Places</h1>
+	<h4>Singapore Lion</h4>	
+		<img src="../images/singaporelion.jpg">
+		<h4>Gardens By The Bay</h4>
+		<img src="../images/garedenbythebay.jpg">
+		<h4>Map Of Othe Places</h4>
+		<img src="../images/mapsinga.png">
+		
+	</div>
+	
+	
+	
+</div>  
+</body>
+</html>
